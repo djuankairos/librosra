@@ -30,7 +30,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: false,
-    image: 'https://covers.openlibrary.org/b/isbn/9781501790874-L.jpg',
+    image: 'images/covers/thebirdsofcostarica_thirdedition.avif',
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780989440875-L.jpg',
+    image: 'images/covers/birds_of_costa_rica_garrigues_dean.jpg',
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: true,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691203355-L.jpg',
+    image: 'images/covers/birds_of_costarica_princeton.jpg',
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: true,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9788416728374-L.jpg',
+    image: 'images/covers/all the birds of the world_lynx.jpg',
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: true,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691138022-L.jpg',
+    image: 'images/covers/Birds of Central America.jpg',
   },
   {
     id: 6,
@@ -121,7 +121,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691115252-L.jpg',
+    image: 'images/covers/the new neotropical companion.jpg',
   },
   {
     id: 8,
@@ -136,7 +136,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691193922-L.jpg',
+    image: 'images/covers/The Complete Birds of the world.jpg',
   },
   {
     id: 9,
@@ -423,7 +423,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9789977658513-L.jpg',
+    image: 'images/covers/Hongos de Costa Rica Rolando Chacón Calderón.jpg',
   },
   {
     id: 27,
@@ -561,7 +561,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: true,
     inStock: true,
-    image: null,
+    image: 'images/covers/Costa Rica Blue_The Underwater Guide.jpg',
   },
 
   // ─── LIBROS PARA NIÑOS ───────────────────────────────────────────────────
