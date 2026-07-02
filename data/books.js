@@ -46,7 +46,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'images/covers/birds_of_costa_rica_garrigues_dean.jpg',
+    image: 'images/covers/avesdecostaricaguiadecampo.webp',
   },
   {
     id: 3,
@@ -392,7 +392,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780801473746-L.jpg',
+    image: 'images/covers/tropicalplantsofcostarica.jpg',
   },
   {
     id: 25,
