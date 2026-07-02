@@ -123,7 +123,7 @@ function needsDarkText(hex) {
 
   let activeCategory = 'all';
   let searchQuery = '';
-  let sortOrder = 'nombre';
+  let sortOrder = 'catalogo';
 
   // Leer parámetros de URL
   var urlParams = new URLSearchParams(window.location.search);
@@ -165,7 +165,8 @@ function needsDarkText(hex) {
         if (sortOrder === 'precio-asc')  return a.price - b.price;
         if (sortOrder === 'precio-desc') return b.price - a.price;
         if (sortOrder === 'nuevo') return (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0);
-        return a.title.localeCompare(b.title, 'es');
+        if (sortOrder === 'nombre') return a.title.localeCompare(b.title, 'es');
+        return 0;
       });
   }
 
