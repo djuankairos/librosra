@@ -150,7 +150,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691195896-L.jpg',
+    image: 'images/covers/The Gull Guide_North America.jpg',
   },
   {
     id: 10,
@@ -164,7 +164,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9789585663398-L.jpg',
+    image: 'images/covers/Plantas Neotropicales que Atraen Aves.jpg',
   },
   {
     id: 11,
@@ -179,7 +179,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9789942143921-L.jpg',
+    image: 'images/covers/Field Guide to the Hummingbirds.jpg',
   },
   {
     id: 12,
@@ -194,7 +194,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9788416728244-L.jpg',
+    image: 'images/covers/Birds of Colombia.jpg',
   },
 
   // ─── HERPETOFAUNA ────────────────────────────────────────────────────────
@@ -240,7 +240,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9781501769924-L.jpg',
+    image: 'images/covers/Pocket Guide to the Amphibians & Reptiles of Costa Rica.jpg',
   },
   {
     id: 16,
@@ -255,7 +255,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691250601-L.jpg',
+    image: 'images/covers/The Lives of Snakes.jpg',
   },
   {
     id: 17,
@@ -298,7 +298,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780691255019-L.jpg',
+    image: 'images/covers/The Lives of Frogs.jpg',
   },
   {
     id: 20,
@@ -374,7 +374,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Guía de Bolsillo de los Mamíferos de Costa Rica.jpg',
   },
 
   // ─── BOTÁNICA ────────────────────────────────────────────────────────────
@@ -406,7 +406,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780981602844-L.jpg',
+    image: 'images/covers/Flores Tropicales de Costa Rica.webp',
   },
 
   // ─── FUNGI ───────────────────────────────────────────────────────────────
@@ -454,7 +454,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: 'https://covers.openlibrary.org/b/isbn/9780801456947-L.jpg',
+    image: 'images/covers/Insects and Other Arthropods of Tropical America.jpg',
   },
   {
     id: 36,
@@ -469,7 +469,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Butterflies & Moths of Costa Rica.jpg',
   },
   {
     id: 29,
