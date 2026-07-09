@@ -592,7 +592,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Explorando el volcán Poás.webp',
   },
   {
     id: 39,
@@ -606,7 +606,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Narilú y Rubí.webp',
   },
   {
     id: 40,
@@ -621,7 +621,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/El tucán y el arcoíris.jpg',
   },
   {
     id: 41,
@@ -636,7 +636,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/A Turtle Is Born.jpg',
   },
   {
     id: 42,
@@ -650,7 +650,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Costa Rica ¡WOW!.jpg',
   },
   {
     id: 43,
@@ -665,7 +665,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/El mar azucarado.jpg',
   },
   {
     id: 44,
@@ -680,7 +680,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/The Rainforest Paparazzi.jpg',
   },
   {
     id: 45,
@@ -695,7 +695,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/El circo de las luciérnagas.webp',
   },
   {
     id: 46,
@@ -709,7 +709,7 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Zari & Marinita.jpg',
   },
 
   // ─── LIBROS PARA COLOREAR ────────────────────────────────────────────────
@@ -740,7 +740,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Costa Rica ¡WOW! — Para Colorear.webp',
   },
   {
     id: 49,
@@ -755,7 +755,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/El mar azucarado — Para Colorear.jpg',
   },
   {
     id: 50,
@@ -770,7 +770,7 @@ const BOOKS = [
     isNew: true,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/El mono paparazzi — Para Colorear.jpg',
   },
   {
     id: 51,
@@ -784,6 +784,6 @@ const BOOKS = [
     isNew: false,
     isBestPrice: false,
     inStock: true,
-    image: null,
+    image: 'images/covers/Costa Rica_ A Little Rhino Coloring Book.webp',
   },
 ];
