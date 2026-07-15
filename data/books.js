@@ -27,9 +27,10 @@ const BOOKS = [
     year: 2026,
     language: 'en',
     description: 'Guía de campo que abarca las 943 especies registradas en Costa Rica. Incluye más de 1.100 ilustraciones nuevas, diferenciación de plumaje por sexo y edad, 47 viñetas de historia natural, mapas de distribución actualizados y nomenclatura actualizada.',
-    isNew: true,
+    isNew: false,
     isBestPrice: false,
-    inStock: false,
+    isLaunch: true,
+    inStock: true,
     image: 'images/covers/thebirdsofcostarica_thirdedition.avif',
   },
   {
