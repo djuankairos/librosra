@@ -251,7 +251,7 @@ function needsDarkText(hex) {
       // Meta
       + '<p class="font-mono" style="font-family:\'Space Mono\',monospace;font-size:0.625rem;'
       + 'letter-spacing:0.08em;color:rgba(26,26,26,0.4);text-transform:uppercase;margin:0 0 10px;">'
-      + catLabel + ' · ' + book.year + (book.language ? ' · ' + book.language.toUpperCase() : '') + '</p>'
+      + catLabel + (book.year ? ' · ' + book.year : '') + (book.language ? ' · ' + book.language.toUpperCase() : '') + '</p>'
 
       // Badges
       + badgesHtml

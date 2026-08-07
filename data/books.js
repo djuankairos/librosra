@@ -18,6 +18,20 @@ const BOOKS = [
 
   // ─── AVIFAUNA ────────────────────────────────────────────────────────────
   {
+    id: 52,
+    title: 'Guía de Aves de Costa Rica',
+    subtitle: '4ta Edición',
+    author: 'Alexander F. Skutch & F. Gary Stiles',
+    category: 'avifauna',
+    price: 30000,
+    language: 'es',
+    description: 'Conocida como "la Biblia" de las aves de Costa Rica, totalmente ilustrada. Describe a detalle comportamientos, hábitos, distribución y cantos, así como dimorfismo sexual. La cuarta edición incorpora 19 nuevos registros descritos por Julio Sánchez.',
+    isNew: true,
+    isBestPrice: false,
+    inStock: true,
+    image: 'images/covers/guia_de_aves_de_costa_rica_4ta_edicion.jpeg',
+  },
+  {
     id: 1,
     title: 'The Birds of Costa Rica',
     subtitle: '3ra Edición',
@@ -380,6 +394,20 @@ const BOOKS = [
 
   // ─── BOTÁNICA ────────────────────────────────────────────────────────────
   {
+    id: 53,
+    title: 'La utilidad de las plantas medicinales en Costa Rica',
+    subtitle: '2da Edición',
+    author: 'Hernán Rodríguez Navas',
+    category: 'botanica',
+    price: 10000,
+    language: 'es',
+    description: 'Segunda edición aumentada y actualizada. Costa Rica cuenta entre 10.000 y 12.000 especies vegetales, fuente de agroindustria, industria química, productos veterinarios y plaguicidas. Reúne investigaciones científicas publicadas sobre plantas medicinales y plaguicidas orgánicos del país.',
+    isNew: true,
+    isBestPrice: false,
+    inStock: true,
+    image: 'images/covers/la_utilidad_de_las_plantas_medicinales_en_costa_rica.png',
+  },
+  {
     id: 24,
     title: 'Tropical Plants of Costa Rica',
     subtitle: 'A Guide to Native and Exotic Flora',
@@ -442,6 +470,19 @@ const BOOKS = [
   },
 
   // ─── ARTRÓPODA ───────────────────────────────────────────────────────────
+  {
+    id: 54,
+    title: 'Coleópteros de importancia agrícola en Costa Rica',
+    author: 'Rosalía Rodríguez Porras',
+    category: 'artropoda',
+    price: 10000,
+    language: 'es',
+    description: 'Describe cincuenta y tres especies de coleópteros (escarabajos) de doce familias de importancia agrícola en Costa Rica. Incluye características morfológicas para identificación, ilustraciones a color y en blanco y negro, plantas hospedantes, síntomas en cultivos y un glosario de términos.',
+    isNew: true,
+    isBestPrice: false,
+    inStock: true,
+    image: 'images/covers/coleopteros_de_importancia_agricola_en_costa_rica.png',
+  },
   {
     id: 28,
     title: 'Insects and Other Arthropods of Tropical America',
