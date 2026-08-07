@@ -27,3 +27,9 @@ yarn-error.log*
 .env
 .env.local
 .env.*.local
+
+# Archivos internos pendientes de decisión con el cliente
+assets/Catalogo.pdf
+assets/Catalogo_Vectorizado.xlsx
+assets/Reinita Amarilla Brand Guidelines 2025.pdf
+design-system/
