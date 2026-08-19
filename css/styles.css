@@ -562,6 +562,99 @@ footer a:hover { color: #FFFEF7 !important; }
 }
 .faq-answer.open { max-height: 300px; opacity: 1; transform: translateY(0); padding-bottom: 18px; }
 
+/* ─── Book Detail Modal ───────────────────────────────── */
+.book-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(26,26,26,0.6);
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+.book-modal-overlay.open { opacity: 1; pointer-events: auto; }
+
+.book-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.97);
+  width: min(920px, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  background: #FFFEF7;
+  border-radius: 18px;
+  z-index: 301;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease, transform 220ms ease;
+  box-shadow: 0 24px 64px rgba(26,26,26,0.28);
+}
+.book-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+.book-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(26,26,26,0.85);
+  color: #FFFEF7;
+  font-size: 1.375rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 150ms;
+}
+.book-modal-close:hover { background: #1A1A1A; }
+.book-modal-close:focus-visible { outline: 3px solid #F5C800; outline-offset: 2px; }
+
+.book-modal-body {
+  display: block;
+}
+@media (min-width: 700px) {
+  .book-modal-body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: start;
+  }
+}
+.book-modal-cover {
+  padding: 2rem 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 700px) {
+  .book-modal-cover { padding: 2.5rem 1.5rem 2.5rem 2.5rem; align-self: stretch; }
+}
+.book-modal-cover img {
+  max-width: 100%;
+  max-height: 380px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.book-modal-info {
+  padding: 0.5rem 2rem 2.5rem;
+}
+@media (min-width: 700px) {
+  .book-modal-info { padding: 2.5rem 2.5rem 2.5rem 1.5rem; }
+}
+.book-modal-description {
+  font-size: 0.9375rem;
+  color: rgba(26,26,26,0.75);
+  line-height: 1.75;
+  white-space: pre-line;
+}
+
 /* ─── Testimonials ────────────────────────────────────── */
 .testimonial-card {
   background: #FFFEF7;

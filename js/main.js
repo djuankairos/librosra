@@ -200,6 +200,7 @@ function needsDarkText(hex) {
 
     const waBtn = book.inStock
       ? '<a href="' + buildBookWAUrl(book.title) + '" target="_blank" rel="noopener noreferrer" '
+        + 'onclick="event.stopPropagation()" '
         + 'class="wa-btn" style="display:block;text-align:center;background:#25D366;color:#FFFEF7;'
         + 'font-family:\'Lato\',sans-serif;font-weight:700;font-size:0.875rem;padding:12px 16px;'
         + 'border-radius:12px;text-decoration:none;cursor:pointer;transition:background 200ms;">'
@@ -209,7 +210,9 @@ function needsDarkText(hex) {
         + 'font-family:\'Lato\',sans-serif;font-weight:700;font-size:0.875rem;padding:12px 16px;'
         + 'border-radius:12px;">No disponible</span>';
 
-    return '<article class="book-card" style="background:#FFFEF7;border-radius:16px;overflow:hidden;'
+    return '<article class="book-card" data-book-id="' + book.id + '" tabindex="0" role="button" '
+      + 'aria-label="Ver ficha completa de ' + escHtml(book.title) + '" '
+      + 'style="background:#FFFEF7;border-radius:16px;overflow:hidden;cursor:pointer;'
       + 'border:1px solid rgba(26,26,26,0.08);display:flex;flex-direction:column;">'
 
       // Top color strip (category color)
@@ -289,6 +292,114 @@ function needsDarkText(hex) {
       grid.innerHTML = filtered.map(renderBookCard).join('');
     }
   }
+
+  // ─── Modal de ficha completa del libro ──────────────────
+
+  var modalOverlay = document.getElementById('book-modal-overlay');
+  var modal = document.getElementById('book-modal');
+  var modalClose = document.getElementById('book-modal-close');
+  var modalBody = document.getElementById('book-modal-body');
+  var lastFocusedEl = null;
+
+  function buildModalContent(book) {
+    const cat = CATEGORIES.find(function (c) { return c.id === book.category; });
+    const catColor = cat ? cat.color : '#9E9E9E';
+    const catLabel = cat ? cat.label.toUpperCase() : book.category.toUpperCase();
+
+    const priceHtml = book.originalPrice
+      ? '<span class="price-original">' + formatPrice(book.originalPrice) + '</span>'
+        + '<div style="display:flex;align-items:center;gap:6px;">'
+        + '<span class="price-current sale" style="font-size:1.5rem;">' + formatPrice(book.price) + '</span>'
+        + buildBadge('#5AAB4B', 'MEJOR PRECIO', '#FFFEF7')
+        + '</div>'
+      : '<span class="price-current" style="font-size:1.5rem;">' + formatPrice(book.price) + '</span>';
+
+    const badges = [];
+    if (book.isLaunch) badges.push(buildBadge('#F07020', 'LANZAMIENTO', '#FFFEF7'));
+    if (book.isNew)   badges.push(buildBadge('#1A1A1A', 'NUEVO', '#F5C800'));
+    if (!book.isLaunch && !book.inStock) badges.push(buildBadge('#9E9E9E', 'AGOTADO', '#1A1A1A'));
+    const badgesHtml = badges.length ? '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px;">' + badges.join('') + '</div>' : '';
+
+    const waBtn = book.inStock
+      ? '<a href="' + buildBookWAUrl(book.title) + '" target="_blank" rel="noopener noreferrer" '
+        + 'class="wa-btn" style="display:inline-flex;align-items:center;justify-content:center;background:#25D366;color:#FFFEF7;'
+        + 'font-family:\'Lato\',sans-serif;font-weight:700;font-size:0.9375rem;padding:14px 28px;'
+        + 'border-radius:12px;text-decoration:none;cursor:pointer;transition:background 200ms;">'
+        + '<svg style="display:inline;vertical-align:middle;margin-right:8px;" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>'
+        + (book.isLaunch ? 'Apartar mi guía' : 'Consultar por WhatsApp') + '</a>'
+      : '<span style="display:inline-block;background:#e5e7eb;color:#9E9E9E;'
+        + 'font-family:\'Lato\',sans-serif;font-weight:700;font-size:0.9375rem;padding:14px 28px;'
+        + 'border-radius:12px;">No disponible</span>';
+
+    return '<div class="book-modal-cover" style="background:' + catColor + '14;">'
+      + (book.image
+        ? '<img src="' + escHtml(book.image) + '" alt="Portada: ' + escHtml(book.title) + '" '
+          + 'onerror="this.style.display=\'none\'">'
+        : '<div style="width:100%;height:280px;background:' + catColor + '22;border-radius:10px;"></div>')
+      + '</div>'
+      + '<div class="book-modal-info">'
+      + '<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px;">'
+      + buildCatBadge(catColor, catLabel)
+      + (book.language ? buildBadge('#FFF8E7', book.language.toUpperCase(), '#1A1A1A') : '')
+      + '</div>'
+      + '<h2 id="book-modal-title" class="font-display" style="font-family:\'Playfair Display\',Georgia,serif;'
+      + 'font-weight:700;font-size:1.5rem;line-height:1.25;color:#1A1A1A;margin:0 0 6px;">' + escHtml(book.title) + '</h2>'
+      + (book.subtitle ? '<p class="font-display" style="font-family:\'Playfair Display\',Georgia,serif;'
+        + 'font-style:italic;font-size:1rem;color:rgba(26,26,26,0.65);margin:0 0 6px;">' + escHtml(book.subtitle) + '</p>' : '')
+      + '<p style="font-style:italic;font-size:0.9375rem;color:rgba(26,26,26,0.65);margin:0 0 14px;">' + escHtml(book.author) + '</p>'
+      + '<p class="font-mono" style="font-family:\'Space Mono\',monospace;font-size:0.6875rem;'
+      + 'letter-spacing:0.08em;color:rgba(26,26,26,0.4);text-transform:uppercase;margin:0 0 16px;">'
+      + catLabel + (book.year ? ' · ' + book.year : '') + (book.language ? ' · ' + book.language.toUpperCase() : '') + (book.isbn ? ' · ISBN ' + escHtml(book.isbn) : '') + '</p>'
+      + badgesHtml
+      + '<p class="book-modal-description">' + escHtml(book.description) + '</p>'
+      + (book.isLaunch ? '' : '<div style="margin:18px 0;">' + priceHtml + '</div>')
+      + '<div style="margin-top:18px;">' + waBtn + '</div>'
+      + '</div>';
+  }
+
+  function openBookModal(book) {
+    if (!book || !modal || !modalOverlay || !modalBody) return;
+    lastFocusedEl = document.activeElement;
+    modalBody.innerHTML = buildModalContent(book);
+    modalOverlay.classList.add('open');
+    modal.classList.add('open');
+    modalOverlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    modal.focus();
+  }
+
+  function closeBookModal() {
+    if (!modal || !modalOverlay) return;
+    modalOverlay.classList.remove('open');
+    modal.classList.remove('open');
+    modalOverlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') lastFocusedEl.focus();
+  }
+
+  function findBookById(id) {
+    return BOOKS.find(function (b) { return String(b.id) === String(id); });
+  }
+
+  grid.addEventListener('click', function (e) {
+    const card = e.target.closest('.book-card');
+    if (!card) return;
+    openBookModal(findBookById(card.dataset.bookId));
+  });
+
+  grid.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const card = e.target.closest('.book-card');
+    if (!card) return;
+    e.preventDefault();
+    openBookModal(findBookById(card.dataset.bookId));
+  });
+
+  if (modalClose) modalClose.addEventListener('click', closeBookModal);
+  if (modalOverlay) modalOverlay.addEventListener('click', closeBookModal);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal && modal.classList.contains('open')) closeBookModal();
+  });
 
   filterBtns.forEach(function (btn) {
     btn.addEventListener('click', function () {

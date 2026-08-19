@@ -332,6 +332,21 @@ const BOOKS = [
 
   // ─── MAMÍFEROS ───────────────────────────────────────────────────────────
   {
+    id: 55,
+    title: 'Mamíferos de Costa Rica',
+    subtitle: 'Mammals of Costa Rica · Guía de Campo',
+    author: 'Eduardo Carrillo, Joel C. Sáenz, Grace Wong, Víctor Montalvo, Juan Carlos Cruz & Carolina Sáenz-Bolaños',
+    category: 'mamiferos',
+    price: 0,
+    language: 'es',
+    description: 'Costa Rica alberga el 5% de la biodiversidad mundial. Esta guía de campo actualizada describe los rasgos esenciales de 62 especies de mamíferos terrestres, con fotografías, huellas e indicios de presencia para identificarlos en campo, junto con su distribución, hábitat, comportamiento, alimentación y reproducción.',
+    isNew: false,
+    isBestPrice: false,
+    isLaunch: true,
+    inStock: true,
+    image: 'images/covers/mamiferos_de_costarica_LANZAMIENTO.png',
+  },
+  {
     id: 21,
     title: 'The Mammals of Costa Rica',
     subtitle: 'A Natural History and Field Guide',
