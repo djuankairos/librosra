@@ -18,6 +18,22 @@ const BOOKS = [
 
   // ─── AVIFAUNA ────────────────────────────────────────────────────────────
   {
+    id: 56,
+    title: 'Aves Endémicas de Costa Rica',
+    subtitle: '2da Edición',
+    author: 'Leandro Arias Salazar',
+    category: 'avifauna',
+    price: 0,
+    year: 2026,
+    language: 'es',
+    description: 'La segunda edición reúne más de 250 fotografías extraordinarias, ampliamente mejoradas gracias a la colaboración de fotógrafos de todo el país. Incluye las actualizaciones taxonómicas más recientes, incorpora un capítulo nuevo sobre conservación y sostenibilidad de las poblaciones, y refuerza secciones clave como los sitios recomendados para la observación y anexos para registrar especies.',
+    isNew: true,
+    isBestPrice: false,
+    isLaunch: true,
+    inStock: true,
+    image: 'images/covers/aves_endemicas_de_costa_rica_2da_edicion.png',
+  },
+  {
     id: 52,
     title: 'Guía de Aves de Costa Rica',
     subtitle: '4ta Edición',
@@ -166,20 +182,6 @@ const BOOKS = [
     isBestPrice: false,
     inStock: true,
     image: 'images/covers/The Gull Guide_North America.jpg',
-  },
-  {
-    id: 10,
-    title: 'Plantas Neotropicales que Atraen Aves',
-    author: 'Asociación Ornitológica Colombiana',
-    category: 'avifauna',
-    price: 24900,
-    year: 2021,
-    language: 'es',
-    description: 'Presenta y describe 121 especies de plantas del neotrópico que atraen aves. Promueve el conocimiento, siembra y cuidado de especies que proporcionan abrigo y alimento a las aves.',
-    isNew: false,
-    isBestPrice: false,
-    inStock: true,
-    image: 'images/covers/Plantas Neotropicales que Atraen Aves.jpg',
   },
   {
     id: 11,
@@ -331,6 +333,22 @@ const BOOKS = [
   },
 
   // ─── MAMÍFEROS ───────────────────────────────────────────────────────────
+  {
+    id: 57,
+    title: 'Mamíferos de Costa Rica',
+    subtitle: 'Diversidad, Evolución, Ecología y Conservación',
+    author: 'José Manuel Mora Benavides & Lucía López Umaña',
+    category: 'mamiferos',
+    price: 0,
+    year: 2026,
+    language: 'es',
+    description: 'Guía integral sobre los mamíferos de Costa Rica, que aborda su diversidad, evolución, ecología y conservación desde una perspectiva científica actualizada. Explora los distintos órdenes de mamíferos, sus adaptaciones a hábitats terrestres y acuáticos, y las interacciones ecológicas que sostienen con otros organismos y ecosistemas, con especial atención a especies en riesgo de extinción y las amenazas del cambio climático.',
+    isNew: true,
+    isBestPrice: false,
+    isLaunch: true,
+    inStock: true,
+    image: 'images/covers/mamiferos_de_costa_rica_jose_manuel_mora.png',
+  },
   {
     id: 55,
     title: 'Mamíferos de Costa Rica',

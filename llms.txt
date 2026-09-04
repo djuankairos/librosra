@@ -18,9 +18,9 @@ Reinita Amarilla Librería es la librería de referencia para naturalistas, inve
 - **Facturación electrónica**: Sí
 - **Moneda**: Colones costarricenses (₡)
 
-## Catálogo — 35 títulos especializados
+## Catálogo — 34 títulos especializados
 
-### Avifauna (12 títulos)
+### Avifauna (11 títulos)
 Guías de aves de Costa Rica, Centroamérica y el mundo:
 - *The Birds of Costa Rica: A Field Guide* (3ra ed., octubre 2026) — Garrigues, Dean & Hille — PRÓXIMO LANZAMIENTO, 943 especies
 - *Birds of Costa Rica* (Princeton Field Guides, 2023) — Dale Dyer & Steve N. G. Howell — ₡15.950 (antes ₡29.950)
@@ -31,7 +31,6 @@ Guías de aves de Costa Rica, Centroamérica y el mundo:
 - *The New Neotropical Companion* — John C. Kricher — ₡24.900
 - *The Complete Birds of the World* — Norman Arlott et al. — ₡55.000
 - *The Gull Guide: North America* — Amar Ayyash — ₡24.900
-- *Vida, Color y Canto: Plantas neotropicales que atraen aves* — Asociación Ornitológica Colombiana — ₡19.900
 - *Field Guide to the Hummingbirds* — Miles McMullan — ₡24.900
 - *Birds of Colombia* (Lynx) — ₡39.900
 
@@ -75,7 +74,7 @@ Guías de aves de Costa Rica, Centroamérica y el mundo:
 ## Páginas del sitio
 
 - [Inicio](https://librosra.com/): Presentación, próximo lanzamiento Birds of CR 3ra ed., categorías de naturaleza, preguntas frecuentes, libros destacados
-- [Catálogo](https://librosra.com/catalogo.html): 35 títulos con búsqueda, filtros por categoría y ordenamiento por precio
+- [Catálogo](https://librosra.com/catalogo.html): 34 títulos con búsqueda, filtros por categoría y ordenamiento por precio
 - [Contacto](https://librosra.com/contacto.html): WhatsApp directo, formulario, email y redes sociales
 
 ## Preguntas frecuentes
