@@ -18,65 +18,93 @@ Reinita Amarilla Librería es la librería de referencia para naturalistas, inve
 - **Facturación electrónica**: Sí
 - **Moneda**: Colones costarricenses (₡)
 
-## Catálogo — 36 títulos especializados
+## Catálogo — 60 títulos especializados
 
-### Avifauna (12 títulos)
-Guías de aves de Costa Rica, Centroamérica y el mundo:
-- *Aves Endémicas de Costa Rica* (2da ed., 2026) — Leandro Arias Salazar — ₡18.950
-- *The Birds of Costa Rica: A Field Guide* (3ra ed., octubre 2026) — Garrigues, Dean & Hille — PRÓXIMO LANZAMIENTO, 943 especies
-- *Birds of Costa Rica* (Princeton Field Guides, 2023) — Dale Dyer & Steve N. G. Howell — ₡15.950 (antes ₡29.950)
-- *Aves de Costa Rica: Guía de Campo* (2da ed., Zona Tropical) — Richard Garrigues & Robert Dean — ₡22.000
-- *All the Birds of the World* (Lynx) — Josep Del Hoyo — ₡69.900, 11.524 especies
-- *Birds of Central America* (Princeton) — Andrew C. Vallely & Dale Dyer — ₡23.950 (antes ₡32.000)
-- *Raptors of Mexico and Central America* — William S. Clark & N. John Schmitt — ₡24.900
-- *The New Neotropical Companion* — John C. Kricher — ₡24.900
-- *The Complete Birds of the World* — Norman Arlott et al. — ₡55.000
-- *The Gull Guide: North America* — Amar Ayyash — ₡24.900
-- *Field Guide to the Hummingbirds* — Miles McMullan — ₡24.900
-- *Birds of Colombia* (Lynx) — ₡39.900
+### Avifauna (13 títulos)
+- *Aves Endémicas de Costa Rica (2da Edición)* (Español, 2026) — Leandro Arias Salazar — ₡18.950
+- *Guía de Aves de Costa Rica (4ta Edición)* (Español) — Alexander F. Skutch & F. Gary Stiles — ₡30.000
+- *The Birds of Costa Rica (3ra Edición)* (Inglés, 2026) — Richard Garrigues, Robert Dean & David Hille — Próximo lanzamiento, consultar por WhatsApp
+- *Aves de Costa Rica: Guía de Campo (2da Edición)* (Español, 2018) — Richard Garrigues & Robert Dean — ₡16.950 (antes ₡22.000)
+- *Birds of Costa Rica (Princeton Field Guides)* (Inglés, 2023) — Dale Dyer & Steve N. G. Howell — ₡15.950 (antes ₡29.950)
+- *All the Birds of the World (Lynx)* (Inglés, 2020) — Josep Del Hoyo — ₡69.900
+- *Birds of Central America (Belize, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica y Panamá)* (Inglés, 2018) — Andrew C. Vallely & Dale Dyer — ₡23.950 (antes ₡32.000)
+- *Raptors of Mexico and Central America* (Inglés, 2017) — William S. Clark & N. John Schmitt — ₡24.900
+- *The New Neotropical Companion* (Inglés, 2017) — John C. Kricher — ₡24.900
+- *The Complete Birds of the World (Every Species Illustrated)* (Inglés, 2021) — Norman Arlott et al. — ₡55.000
+- *The Gull Guide: North America* (Inglés, 2017) — Aymar Ayyash — ₡24.900
+- *Field Guide to the Hummingbirds (A Fully-Illustrated Guide to All the World's Hummingbirds)* (Inglés, 2016) — Miles McMullan — ₡19.900
+- *Birds of Colombia (Lynx)* (Inglés, 2021) — Steven L. Hilty — ₡39.900
 
 ### Herpetofauna (8 títulos)
-- *Amphibians of Costa Rica* — Twan Leenders — ₡16.950 (antes ₡22.950)
-- *Reptiles of Costa Rica* — Twan Leenders — ₡15.950 (antes ₡20.950)
-- *Pocket Guide to the Amphibians & Reptiles of Costa Rica* — Twan Leenders — ₡15.950
-- *The Lives of Snakes* — Chris Mattison — ₡20.900
-- *Snakes of the World: A Guide to Every Family* — Mark O'Shea — ₡19.900
-- *Frogs and Toads of the World* — Chris Mattison — ₡21.900
-- *The Lives of Frogs* — Jim Labisko & Richard Griffiths — ₡19.900
-- *Frogs of the World: A Guide to Every Family* — Mark O'Shea & Simon Maddock — ₡20.900
+- *Amphibians of Costa Rica* (Inglés, 2016) — Twan Leenders — ₡15.950 (antes ₡20.950)
+- *Reptiles of Costa Rica* (Inglés, 2016) — Twan Leenders — ₡16.950 (antes ₡22.950)
+- *Pocket Guide to the Amphibians & Reptiles of Costa Rica* (Inglés, 2023) — Twan Leenders — ₡15.950
+- *The Lives of Snakes (A Natural History of the World's Snakes)* (Inglés, 2025) — Chris Mattison — ₡20.900
+- *Snakes of the World: A Guide to Every Family* (Inglés, 2023) — Mark O'Shea — ₡19.900
+- *Frogs & Toads of the World* (Inglés) — Chris Mattison — ₡21.900
+- *The Lives of Frogs (A Natural History of Our Planet's Frog Life)* (Inglés, 2025) — Jim Labisko & Richard Griffiths — ₡20.900
+- *Frogs of the World: A Guide to Every Family* (Inglés, 2024) — Mark O'Shea & Simon Maddock — ₡19.900
 
-### Mamíferos (5 títulos)
-- *Mamíferos de Costa Rica: Diversidad, Evolución, Ecología y Conservación* (2026) — José Manuel Mora Benavides & Lucía López Umaña — ₡20.950
-- *The Mammals of Costa Rica: A Natural History and Field Guide* — Mark Wainwright — ₡24.900
-- *Pocket Guide to the Mammals of Costa Rica* (Inglés, 2022) — Fiona A. Reid & Gianfranco Gómez — ₡16.950
-- *Bats: An Illustrated Guide to All Species* — Marianne Taylor — ₡15.950 (antes ₡22.000)
+### Mamíferos (6 títulos)
+- *Mamíferos de Costa Rica (Diversidad, Evolución, Ecología y Conservación)* (Español, 2026) — José Manuel Mora Benavides & Lucía López Umaña — ₡20.950
+- *Mamíferos de Costa Rica (Mammals of Costa Rica · Guía de Campo)* (Español) — Eduardo Carrillo, Joel C. Sáenz, Grace Wong, Víctor Montalvo, Juan Carlos Cruz & Carolina Sáenz-Bolaños — Próximo lanzamiento, consultar por WhatsApp
+- *The Mammals of Costa Rica (A Natural History and Field Guide)* (Inglés, 2007) — Mark Wainwright — ₡16.950
+- *Mammals of Costa Rica (Pocket Guide)* (Inglés, 2022) — Fiona A. Reid & Gianfranco Gómez — ₡15.950 (antes ₡22.000)
+- *Bats: An Illustrated Guide to All Species* (Inglés, 2019) — Marianne Taylor — ₡24.900
 - *Guía de Bolsillo de los Mamíferos de Costa Rica* (Español, 2025) — Gianfranco Gómez Zamora & Fiona A. Reid — ₡15.950 (antes ₡22.000)
 
-### Botánica (2 títulos)
-- *Tropical Plants of Costa Rica: A Guide to Native and Exotic Flora* — Willow Zuchowski — ₡17.950 (antes ₡22.000)
-- *Flores Tropicales de Costa Rica* — Willow Zuchowski & T. Forsyth — ₡8.500
+### Botánica (6 títulos)
+- *Historia natural del Parque Nacional Chirripó* (Español, 2008) — Adelaida Chaverri Polini — ₡14.500
+- *Plantas comunes del Parque Nacional Chirripó* (Español, 2003) — Evelio Alfaro Vindas & Billen Gamboa — ₡14.500
+- *Historia natural de Golfito* (Español, 2005) — Jorge Lobo & Federico Bolaños — ₡9.950
+- *La utilidad de las plantas medicinales en Costa Rica (2da Edición)* (Español) — Hernán Rodríguez Navas — ₡10.000
+- *Tropical Plants of Costa Rica (A Guide to Native and Exotic Flora)* (Inglés, 2016) — Twan Leenders — ₡19.900
+- *Flores Tropicales de Costa Rica* (Español, 2011) — Zuchowski W. & Forsyth T. — ₡8.500
 
-### Fungi (2 títulos)
-- *Hongos de Costa Rica* — Rolando Chacón Calderón — ₡21.950
-- *The Lives of Fungi* — Britt A. Bunyard — ₡20.950
+### Fungi (3 títulos)
+- *Líquenes de Costa Rica (INBio)* (Español, 2002) — Loengrin Umaña & Harrie Sipman — ₡10.500
+- *Hongos de Costa Rica (2da Edición)* (Español, 2024) — Rolando Chacón Calderón — ₡20.950
+- *The Lives of Fungi (A Natural History of Our Planet's Decomposers)* (Inglés, 2022) — Britt A. Bunyard — ₡21.950
 
-### Artrópoda (5 títulos)
-- *Insects and Other Arthropods of Tropical America* — Paul Hanson & Kenji Nishida — ₡16.950 (antes ₡22.000)
-- *Pocket Guide to the Insects of Costa Rica* — Paul Hanson, Kenji Nishida & Ángel Solís — ₡14.900 (antes ₡25.900)
-- *The Lives of Butterflies* — Andrei Sourakov & Rachel Warren Chadd — ₡20.900
-- *The Lives of Moths* — David G. James & David J. Lohman — ₡20.900
-- *The Lives of Beetles* — Arthur V. Evans — ₡20.900
+### Artrópoda (7 títulos)
+- *Coleópteros de importancia agrícola en Costa Rica* (Español) — Rosalía Rodríguez Porras — ₡10.000
+- *Insects and Other Arthropods of Tropical America* (Inglés, 2016) — Paul Hanson & Kenji Nishida — ₡25.900
+- *Butterflies & Moths of Costa Rica* (Inglés, 2025) — Luis Ricardo Murillo — ₡16.950 (antes ₡22.000)
+- *Pocket Guide to the Insects of Costa Rica* (Inglés, 2021) — Paul E. Hanson, Kenji Nishida & Ángel Solís — ₡14.900
+- *The Lives of Butterflies (A Natural History of Our Planet's Butterfly Life)* (Inglés, 2023) — David G. James & David J. Lohman — ₡20.900
+- *The Lives of Moths (A Natural History of Our Planet's Moth Life)* (Inglés, 2022) — Andrei Sourakov & Rachel Warren Chadd — ₡20.900
+- *The Lives of Beetles (A Natural History of Coleoptera)* (Inglés, 2023) — Arthur V. Evans — ₡20.900
 
 ### Peces (1 título)
-- *The Lives of Sharks* — Daniel Abel & R. Dean Grubbs — ₡20.900
+- *The Lives of Sharks (A Natural History of Shark Life)* (Inglés, 2023) — Daniel Abel & R. Dean Grubbs — ₡20.900
 
 ### Underwater / Buceo (1 título)
-- *Costa Rica Blue: The Underwater Guide* — Genna Marie Davis — ₡25.000
+- *Costa Rica Blue: The Underwater Guide* (Inglés, 2018) — Genna Marie Davis — ₡25.000
+
+### Niños (10 títulos)
+- *Si yo fuera perezoso... (If I Were a Sloth...)* (Español) — null — ₡9.950
+- *Explorando el volcán Poás (Exploring Poás Volcano)* (Español) — null — ₡9.950
+- *Narilú y Rubí* (Español) — null — ₡9.950
+- *El tucán y el arcoíris (The Toucan and the Rainbow)* (Español) — null — ₡9.950
+- *A Turtle Is Born (Una tortuguita sale del nido)* (Español) — null — ₡9.950
+- *Costa Rica ¡WOW!* (Español) — null — ₡9.950
+- *El mar azucarado (Sea Sweet Sea)* (Español) — null — ₡9.950
+- *The Rainforest Paparazzi (El mono paparazzi)* (Español) — null — ₡9.950
+- *The Firefly Circus (El circo de las luciérnagas)* (Español) — null — ₡9.950
+- *Zari & Marinita* (Español) — null — ₡9.950
+
+### Colorear (5 títulos)
+- *Una tortuga sale del nido (A Turtle Is Born — Para Colorear)* (Español) — null — ₡4.950
+- *Costa Rica ¡WOW! — Para Colorear* (Español) — null — ₡4.950
+- *El mar azucarado — Para Colorear (Sea Sweet Sea)* (Español) — null — ₡4.950
+- *El mono paparazzi — Para Colorear (The Rainforest Paparazzi)* (Español) — null — ₡4.950
+- *Costa Rica: A Little Rhino Coloring Book* (Español) — Bob Anderson — ₡4.950
 
 ## Páginas del sitio
 
 - [Inicio](https://librosra.com/): Presentación, próximo lanzamiento Birds of CR 3ra ed., categorías de naturaleza, preguntas frecuentes, libros destacados
-- [Catálogo](https://librosra.com/catalogo.html): 36 títulos con búsqueda, filtros por categoría y ordenamiento por precio
+- [Catálogo](https://librosra.com/catalogo.html): 60 títulos con búsqueda, filtros por categoría y ordenamiento por precio
+- [Lanzamientos](https://librosra.com/lanzamientos.html): Nuevos lanzamientos de la librería, con acceso directo a WhatsApp para apartar
 - [Contacto](https://librosra.com/contacto.html): WhatsApp directo, formulario, email y redes sociales
 
 ## Preguntas frecuentes
